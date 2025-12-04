@@ -1,0 +1,6 @@
+dream_launcher/bin/data/games
+dream_launcher/bin/data/images
+dream_launcher/obj
+dream_launcher/.vs
+dream_launcher/*.db
+

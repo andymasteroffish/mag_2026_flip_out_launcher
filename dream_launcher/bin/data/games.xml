@@ -1,0 +1,86 @@
+<GAMES>
+	<GAME>
+		<TITLE>general_info</TITLE>
+		<CREDITS>None</CREDITS>
+		<INFO>It's a game jam.</INFO>
+		<EXE_PATH></EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>logo.png</ICON>
+		<SCREENSHOT>LeverUpCover.jpg</SCREENSHOT>
+	</GAME>
+	<GAME>
+		<TITLE>Up To Go Down</TITLE>
+		<CREDITS>by Dexter Gramfors</CREDITS>
+		<INFO>info</INFO>
+		<EXE_PATH>/up-to-go-down.exe</EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>up-to-go-down.png</ICON>
+		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
+	</GAME>
+	<GAME>
+		<TITLE>Ascent Together</TITLE>
+		<CREDITS>by name</CREDITS>
+		<INFO>info</INFO>
+		<EXE_PATH>/Windows/flippy.exe</EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>logo.png</ICON>
+		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
+	</GAME>
+	<GAME>
+		<TITLE>Illegal Space Trucking</TITLE>
+		<CREDITS>by name</CREDITS>
+		<INFO>info</INFO>
+		<EXE_PATH>/Illegal Space Trucking32x.exe</EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>logo.png</ICON>
+		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
+	</GAME>
+	<GAME>
+		<TITLE>Toggle Tavern</TITLE>
+		<CREDITS>by name</CREDITS>
+		<INFO>info</INFO>
+		<EXE_PATH>/Build_10262025/10262025/flip-out.exe</EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>logo.png</ICON>
+		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
+	</GAME>
+	<GAME>
+		<TITLE>Lo! A Rider!</TITLE>
+		<CREDITS>by name</CREDITS>
+		<INFO>info</INFO>
+		<EXE_PATH>/LowRiderV6_Win/x64/New project.exe</EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>logo.png</ICON>
+		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
+	</GAME>
+	<GAME>
+		<TITLE>Shape + Bake</TITLE>
+		<CREDITS>by name</CREDITS>
+		<INFO>info</INFO>
+		<EXE_PATH>/shape-and-bake.exe</EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>logo.png</ICON>
+		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
+	</GAME>
+	<GAME>
+		<TITLE>Psychic Joy Delivery Service</TITLE>
+		<CREDITS>by name</CREDITS>
+		<INFO>info</INFO>
+		<EXE_PATH>/psychic-joy-ds--win-1/psychic-joy-ds--win-1/PsychicJoyDeliveryService.exe</EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>logo.png</ICON>
+		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
+	</GAME>
+	<GAME>
+		<TITLE>The Self Defense</TITLE>
+		<CREDITS>by name</CREDITS>
+		<INFO>info</INFO>
+		<EXE_PATH>/the-self-defense-2025-10-24/the-self-defense-2025-10-24/The Self Defense.exe</EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>logo.png</ICON>
+		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
+	</GAME>
+	
+	
+	
+</GAMES>

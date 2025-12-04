@@ -1,0 +1,101 @@
+<SETTINGS>
+	<!-- Messages -->
+	<BOTTOM_MESSAGE>Lever Up Jam brought to you by The MAGFest Indie Arcade and Arcade Commons!</BOTTOM_MESSAGE>
+	<TOP_TEXT_MESSAGE>Select Game</TOP_TEXT_MESSAGE>
+	
+	<!-- Main Colors, hex values -->
+	<SELECT_HEX_COL>dddddd</SELECT_HEX_COL>
+	<TITLE_HEX_COL>eeeeee</TITLE_HEX_COL>
+	<INFO_HEX_COL>dddddd</INFO_HEX_COL>
+	<BOTTOM_MESSAGE_HEX_COL>cccccc</BOTTOM_MESSAGE_HEX_COL>
+	<OUTLINE_HEX_COL>dddddd</OUTLINE_HEX_COL>
+	
+	<!-- Fonts -->
+	<TOP_TEXT_FONT>GapSansBold.ttf</TOP_TEXT_FONT>
+	<TOP_TEXT_FONT_SIZE>45</TOP_TEXT_FONT_SIZE>
+	
+	<TITLE_FONT>GapSansBold.ttf</TITLE_FONT>
+	<TITLE_FONT_SIZE>56</TITLE_FONT_SIZE>
+	
+	<BY_LINE_FONT>GapSansBold.ttf</BY_LINE_FONT>
+	<BY_LINE_FONT_SIZE>34</BY_LINE_FONT_SIZE>
+	
+	<INFO_FONT>SaniTrixieSans.ttf</INFO_FONT>
+	<INFO_FONT_SIZE>25</INFO_FONT_SIZE>
+	
+	<BOTTOM_FONT>SaniTrixieSans.ttf</BOTTOM_FONT>
+	<BOTTOM_FONT_SIZE>22</BOTTOM_FONT_SIZE>
+	
+	<!-- background colors -->
+	<BG_COLORS>
+		<BG_COLOR><VAL>#871ca1</VAL></BG_COLOR>
+		<BG_COLOR><VAL>#0ccddb</VAL></BG_COLOR>
+		<BG_COLOR><VAL>#ffd046</VAL></BG_COLOR>
+		<BG_COLOR><VAL>#b2296b</VAL></BG_COLOR>
+	</BG_COLORS>
+	
+	<!-- washing out/fading the background, 0-255 -->
+	<BG_GRAY>0</BG_GRAY>
+	<BG_ALPHA>140</BG_ALPHA>
+	
+	<!-- sound effects -->
+	<MOVE_SOUND>move1.wav</MOVE_SOUND>
+	<SELECT_SOUND>select3.wav</SELECT_SOUND>
+	<RETURN_SOUND>return1.wav</RETURN_SOUND>
+	
+	<!-- keys -->
+	<!-- put a number for a key code or a letter for that key. choices are case sensative -->
+	<!-- see readme for some values -->
+	<!-- DO NOT use R or F here. The launcher does things with those keys -->
+	<KEY_CONFIRM>
+		<KEY><VAL>13</VAL></KEY> <!-- enter -->
+		<KEY><VAL>32</VAL></KEY> <!--space-->
+	</KEY_CONFIRM>
+	<KEY_LEFT>
+		<KEY><VAL>A</VAL></KEY>
+		<KEY><VAL>a</VAL></KEY>
+		<KEY><VAL>356</VAL></KEY> <!--left arrow-->
+	</KEY_LEFT>
+	<KEY_RIGHT>
+		<KEY><VAL>D</VAL></KEY>
+		<KEY><VAL>d</VAL></KEY>
+		<KEY><VAL>358</VAL></KEY> <!--right arrow-->
+	</KEY_RIGHT>
+	
+	
+	<!-- positions, 0-1 measured in screen % -->
+	<SELECT_GAME_Y>0.04</SELECT_GAME_Y>
+	
+	<ICON_Y>0.24</ICON_Y>
+	<ICON_Y_SPACING>0.05</ICON_Y_SPACING> <!--was 0.01-->
+	<ICON_X_SPACING>0.55</ICON_X_SPACING>
+	<ICON_SPACING_CURVE>0.85</ICON_SPACING_CURVE>
+	
+	<ICON_WIDTH>315</ICON_WIDTH>
+	<ICON_HEIGHT>250</ICON_HEIGHT>
+	
+	<GAME_INFO_TEXT_Y_START>0.37</GAME_INFO_TEXT_Y_START>
+	<GAME_TEXT_X>0.54</GAME_TEXT_X>
+	<GAME_TEXT_W>0.45</GAME_TEXT_W>
+	<GAME_TEXT_BY_LINE_SPACING>0.07</GAME_TEXT_BY_LINE_SPACING>
+	<GAME_TEXT_INFO_SPACING>0.08</GAME_TEXT_INFO_SPACING>
+	
+	<SCREEN_SHOT_WIDTH>850</SCREEN_SHOT_WIDTH>
+	<!-- percentage of the screen. image centered on this point -->
+	<SCREEN_SHOT_X>0.27</SCREEN_SHOT_X>
+	<SCREEN_SHOT_Y>0.65</SCREEN_SHOT_Y>
+	
+	<LOGO_X>0.06</LOGO_X>
+	<LOGO_Y>0.90</LOGO_Y>
+	<LOGO_IMG>ia-black_small_outline.png</LOGO_IMG>
+	
+	<BOTTOM_TEXT_X>0.5</BOTTOM_TEXT_X>
+	<BOTTOM_TEXT_Y>0.97</BOTTOM_TEXT_Y>
+	
+	<!-- other shit -->
+	<USE_RELATIVE_PATH>TRUE</USE_RELATIVE_PATH>	<!--if FALSE, you need to provide an absolute path in the games xml -->
+	<HIDE_CONSOLE>FALSE</HIDE_CONSOLE>
+	<CLOSE_AFTER_GAME_LAUNCH>TRUE</CLOSE_AFTER_GAME_LAUNCH>
+	<USE_IMAGE_FOR_DREAMHOUSE_INFO>TRUE</USE_IMAGE_FOR_DREAMHOUSE_INFO>	<!--if FALSE, text will be used instead. The text or image are set in games.xml-->
+	
+</SETTINGS>

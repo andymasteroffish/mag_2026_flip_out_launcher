@@ -31,7 +31,9 @@ Something about where to get the games
 
 Open up files_to_install and instal them. You might not need them but then again you might! What's the harm?
 
-This setup requires AutoHotkey 1 (not AutoHotkey 2, which is the first download on their site). I have included an installer here that should work.
+This setup requires [AutoHotkey 1](https://www.autohotkey.com/) (not AutoHotkey 2, which is the first download on their site). I have included an installer for AutoHotkey 1.1.37 which I have confirmed works.
+
+I also included an installer for Notepad++. You need some type of simple text editor and god help you if you're using Notepad.
 
 
 # Games

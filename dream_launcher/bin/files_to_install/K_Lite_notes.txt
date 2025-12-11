@@ -1,1 +1,0 @@
-This is for video playback in attract mode. Standard installation is fine.

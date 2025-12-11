@@ -33,7 +33,7 @@ Open up files_to_install and instal them. You might not need them but then again
 
 This setup requires [AutoHotkey 1](https://www.autohotkey.com/) (not AutoHotkey 2, which is the first download on their site). I have included an installer for AutoHotkey 1.1.37 which I have confirmed works.
 
-I also included an installer for Notepad++. You need some type of simple text editor and god help you if you're using Notepad.
+I also included an installer for [Notepad++](https://notepad-plus-plus.org/). You need some type of simple text editor and god help you if you're using Notepad.
 
 
 # Games

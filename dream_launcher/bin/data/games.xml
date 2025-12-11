@@ -9,32 +9,66 @@
 		<SCREENSHOT>LeverUpCover.jpg</SCREENSHOT>
 	</GAME>
 	<GAME>
+		<TITLE>Five Lights at Debbies</TITLE>
+		<CREDITS>by LeapinLemurs</CREDITS>
+		<INFO>Debbie is afraid of the dark, and for good reason! Evil spirits are after her soul (and her generator battery). Fend them off for as long as you can!</INFO>
+		<EXE_PATH>/up-to-go-down.exe</EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>debbies_icon.png</ICON>
+		<SCREENSHOT>debbies.png</SCREENSHOT>
+	</GAME>
+	<GAME>
 		<TITLE>Up To Go Down</TITLE>
-		<CREDITS>by Dexter Gramfors</CREDITS>
-		<INFO>info</INFO>
+		<CREDITS>by Gramfors and Wesna</CREDITS>
+		<INFO>Inspired by true elevator events and featuring insufferable elevator music (I'm sorry), Up To Go Down puts you in the shoes of the operator of an extremely manual elevator system.
+
+Transport passengers to their requested floor to score enough points to earn a spot on the leaderboard — and the privilege of trying to input your initials using five toggle switches (I'm sorry).</INFO>
 		<EXE_PATH>/up-to-go-down.exe</EXE_PATH>
 		<IS_WEB>FALSE</IS_WEB>
 		<ICON>up-to-go-down.png</ICON>
-		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
+		<SCREENSHOT>utgd-screenshot.png</SCREENSHOT>
 	</GAME>
 	<GAME>
-		<TITLE>Ascent Together</TITLE>
-		<CREDITS>by name</CREDITS>
-		<INFO>info</INFO>
-		<EXE_PATH>/Windows/flippy.exe</EXE_PATH>
+		<TITLE>Shape + Bake</TITLE>
+		<CREDITS>by josephalopod</CREDITS>
+		<INFO>Feed the hungry monster delicious shapes! But beware! The monster is a picky eater, with very particular tastes. Assemble the correct orders and flip them straight into the creature's mouth!</INFO>
+		<EXE_PATH>/shape-and-bake.exe</EXE_PATH>
 		<IS_WEB>FALSE</IS_WEB>
-		<ICON>logo.png</ICON>
-		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
+		<ICON>shape_icon.png</ICON>
+		<SCREENSHOT>shape.png</SCREENSHOT>
 	</GAME>
 	<GAME>
 		<TITLE>Illegal Space Trucking</TITLE>
-		<CREDITS>by name</CREDITS>
-		<INFO>info</INFO>
+		<CREDITS>by Neat Creature Studios</CREDITS>
+		<INFO>Run from the space police, evade asteroids and fight, in this arcade game designed for the flip out jam.</INFO>
 		<EXE_PATH>/Illegal Space Trucking32x.exe</EXE_PATH>
 		<IS_WEB>FALSE</IS_WEB>
-		<ICON>logo.png</ICON>
-		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
+		<ICON>truck_icon.png</ICON>
+		<SCREENSHOT>truck.png</SCREENSHOT>
 	</GAME>
+	<GAME>
+		<TITLE>The Self Defense</TITLE>
+		<CREDITS>by running jump</CREDITS>
+		<INFO>As we age, overcome challenges, and meet new people, our personalities evolve. But not yours.
+
+Harness your Mania, Spite, and Denial to construct Defense Mechanisms. Guard your fragile sense of self against the Hexagons of Change. 
+
+Avoid personal growth at all costs.</INFO>
+		<EXE_PATH>/the-self-defense-2025-10-24/the-self-defense-2025-10-24/The Self Defense.exe</EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>self_icon.png</ICON>
+		<SCREENSHOT>self.png</SCREENSHOT>
+	</GAME>
+	<GAME>
+		<TITLE>Ascent Together</TITLE>
+		<CREDITS>by Ammar Ahmed</CREDITS>
+		<INFO>gather your friends and cooperate to conquer the challenge.</INFO>
+		<EXE_PATH>/Windows/flippy.exe</EXE_PATH>
+		<IS_WEB>FALSE</IS_WEB>
+		<ICON>ascent_icon.png</ICON>
+		<SCREENSHOT>ascent.jpeg</SCREENSHOT>
+	</GAME>
+	
 	<GAME>
 		<TITLE>Toggle Tavern</TITLE>
 		<CREDITS>by name</CREDITS>
@@ -53,15 +87,7 @@
 		<ICON>logo.png</ICON>
 		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
 	</GAME>
-	<GAME>
-		<TITLE>Shape + Bake</TITLE>
-		<CREDITS>by name</CREDITS>
-		<INFO>info</INFO>
-		<EXE_PATH>/shape-and-bake.exe</EXE_PATH>
-		<IS_WEB>FALSE</IS_WEB>
-		<ICON>logo.png</ICON>
-		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
-	</GAME>
+	
 	<GAME>
 		<TITLE>Psychic Joy Delivery Service</TITLE>
 		<CREDITS>by name</CREDITS>
@@ -71,15 +97,7 @@
 		<ICON>logo.png</ICON>
 		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
 	</GAME>
-	<GAME>
-		<TITLE>The Self Defense</TITLE>
-		<CREDITS>by name</CREDITS>
-		<INFO>info</INFO>
-		<EXE_PATH>/the-self-defense-2025-10-24/the-self-defense-2025-10-24/The Self Defense.exe</EXE_PATH>
-		<IS_WEB>FALSE</IS_WEB>
-		<ICON>logo.png</ICON>
-		<SCREENSHOT>Amphibifans_gameplay2.png</SCREENSHOT>
-	</GAME>
+	
 	
 	
 	

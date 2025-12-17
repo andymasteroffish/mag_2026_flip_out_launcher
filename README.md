@@ -35,6 +35,9 @@ This setup requires [AutoHotkey 1](https://www.autohotkey.com/) (not AutoHotkey 
 
 I also included an installer for [Notepad++](https://notepad-plus-plus.org/). You need some type of simple text editor and god help you if you're using Notepad.
 
+# Teensy code
+
+The arduino code for the teensy in the console lives in hardware_jam_2026_console
 
 # Games
 

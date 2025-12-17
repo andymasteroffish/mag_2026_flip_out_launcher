@@ -15,7 +15,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 ; Game Variables
-Launcher_Path = "D:\of_v0.9.8_vs_release\apps\lever_up_launcher\dream_launcher\bin\dream_launcher.exe"
+Launcher_Path = "C:\Users\andy\Desktop\flip_out_2025-12-10\dream_launcher\bin\dream_launcher.exe"
 
 ; General Interface Settings
 Start_With_Hidden_Cursor = 1
@@ -34,14 +34,12 @@ if (Start_With_Hidden_Cursor = 1)
 Restart_Launcher()
 
 ;set the mouse to move every so often
-SetTimer, MoveMouse, 8000
+SetTimer, MoveMouse, 2000
 
 ;k kills all games and returns focus to the launcer
 k::KilLAllGames()
 ; middle mouse click also restarts 
 MButton::KilLAllGames()
-
-;R and F are used by the oF app and should not be used here
 
 ;Win-Z to kill this script
 #z::
@@ -90,15 +88,7 @@ KillAllGames(){
 			WinClose, ahk_id %this_id% ;This is what it should be ;MsgBox, This ahk_id %this_id% ; Easier to test ;)
 	}
 	
-	;restart the launcher
-	If !ProcessExist("dream_launcher.exe")
-		Restart_Launcher()
-	
-	;Return focus to launcher and run the focus function (triggered by 'R')
-	;This was more relevant when the launcher stayed open.
-	WinActivate, dream_launcher
-	Sleep 20
-	Send {R 1}
+	Restart_Launcher()
 }
 
 

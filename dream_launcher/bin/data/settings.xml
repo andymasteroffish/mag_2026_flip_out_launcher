@@ -1,6 +1,6 @@
 <SETTINGS>
 	<!-- Messages -->
-	<BOTTOM_MESSAGE>Lever Up Jam brought to you by The MAGFest Indie Arcade and Arcade Commons!</BOTTOM_MESSAGE>
+	<BOTTOM_MESSAGE>Flip Out Jam brought to you by The MAGFest Indie Arcade and Arcade Commons!</BOTTOM_MESSAGE>
 	<TOP_TEXT_MESSAGE>Select Game</TOP_TEXT_MESSAGE>
 	
 	<!-- Main Colors, hex values -->
@@ -85,9 +85,15 @@
 	<SCREEN_SHOT_X>0.27</SCREEN_SHOT_X>
 	<SCREEN_SHOT_Y>0.65</SCREEN_SHOT_Y>
 	
-	<LOGO_X>0.06</LOGO_X>
+	<LOGO_X>0.04</LOGO_X>
 	<LOGO_Y>0.90</LOGO_Y>
+	<LOGO_SCALE>0.35</LOGO_SCALE>
 	<LOGO_IMG>ia-black_small_outline.png</LOGO_IMG>
+	
+	<LOGO_X_2>0.95</LOGO_X_2>
+	<LOGO_Y_2>0.90</LOGO_Y_2>
+	<LOGO_SCALE_2>0.2</LOGO_SCALE_2>
+	<LOGO_IMG_2>ac_logo.png</LOGO_IMG_2>
 	
 	<BOTTOM_TEXT_X>0.5</BOTTOM_TEXT_X>
 	<BOTTOM_TEXT_Y>0.97</BOTTOM_TEXT_Y>

@@ -72,7 +72,7 @@ Avoid personal growth at all costs.</INFO>
 	<GAME>
 		<TITLE>Toggle Tavern</TITLE>
 		<CREDITS>by Mashi Zaman and Mat Olson</CREDITS>
-		<INFO>Pour drinks, earn money, trick out your tavern.</INFO>
+		<INFO>Welcome to the pub, bartender! Flip the switches to throw the taps, try to keep up with the customers, and set a high score!</INFO>
 		<EXE_PATH>/Build_10262025/10262025/flip-out.exe</EXE_PATH>
 		<IS_WEB>FALSE</IS_WEB>
 		<ICON>tavern_icon.png</ICON>
@@ -90,8 +90,11 @@ Avoid personal growth at all costs.</INFO>
 	
 	<GAME>
 		<TITLE>Psychic Joy Delivery Service</TITLE>
-		<CREDITS>by wakeman</CREDITS>
-		<INFO>happy little houses</INFO>
+		<CREDITS>by Wakeman</CREDITS>
+		<INFO>Do you enjoy twirling clumsily? The Psychic Joy Delivery Service wants YOU!
+- Become a floating head
+- Enter wormholes
+- Gather and deliver joy</INFO>
 		<EXE_PATH>/psychic-joy-ds--win-1/psychic-joy-ds--win-1/PsychicJoyDeliveryService.exe</EXE_PATH>
 		<IS_WEB>FALSE</IS_WEB>
 		<ICON>psychic_icon.png</ICON>

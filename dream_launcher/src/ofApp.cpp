@@ -132,6 +132,9 @@ void ofApp::loadXML() {
 	string logo_path = "images/" + xml.getValue<string>("LOGO_IMG");
 	logo.load(logo_path);
 
+	string logo_path2 = "images/" + xml.getValue<string>("LOGO_IMG_2");
+	logo2.load(logo_path2);
+
 	//keys
 	xml.setTo("KEY_LEFT");
 	xml.setTo("KEY[0]");
@@ -252,6 +255,10 @@ void ofApp::loadXML() {
 
 	logoPos.x = xml.getValue<float>("LOGO_X");
 	logoPos.y = xml.getValue<float>("LOGO_Y");
+	logoScale = xml.getValue<float>("LOGO_SCALE");
+	logoScale2 = xml.getValue<float>("LOGO_SCALE_2");
+	logoPos2.x = xml.getValue<float>("LOGO_X_2");
+	logoPos2.y = xml.getValue<float>("LOGO_Y_2");
 	bottomTextPos.x = xml.getValue<float>("BOTTOM_TEXT_X");
 	bottomTextPos.y = xml.getValue<float>("BOTTOM_TEXT_Y");
 
@@ -281,11 +288,23 @@ void ofApp::update(){
 //--------------------------------------------------------------
 void ofApp::draw(){
 
+	ofColor bottomTextCol;
+	bottomTextCol.setHex(bottomTextColHex);
+
 	//background
 	background.draw();
 	
+	//logo - right
+	ofSetColor(bottomTextCol);
+	ofPushMatrix();
+	ofTranslate(ofGetWidth() * logoPos2.x, ofGetHeight() * logoPos2.y);
+	ofScale(logoScale2, logoScale2);
+	ofRotate(-ofMap(sin(ofGetElapsedTimef()), -1, 1, -10, -25));
+	logo2.draw(-logo2.getWidth() / 2, -logo2.getHeight() / 2);
+	ofPopMatrix();
 	
 
+	//game info
 	float selectionAnimPrc = selectionAnimationTimer / selectionAnimationTime;
 	selectionAnimPrc = MIN(selectionAnimPrc, 1);
 	//draw the info for this game, crossfading when the seleciton changes
@@ -306,8 +325,6 @@ void ofApp::draw(){
 	}
 
 	//bottom stuff
-	ofColor bottomTextCol;
-	bottomTextCol.setHex(bottomTextColHex);
 	float zeno = 0.1;
 	if (info[curSelection].is_general_info) {
 		bottomTextAlpha *= (1.0-zeno);
@@ -320,9 +337,8 @@ void ofApp::draw(){
 	}
 	bottomTextCol.a = bottomTextAlpha;
 
-	//logo
+	//logo - left
 	ofSetColor(bottomTextCol);
-	float logoScale = 0.35;
 	ofPushMatrix();
 	ofTranslate(ofGetWidth() * logoPos.x, ofGetHeight() * logoPos.y);
 	ofScale(logoScale, logoScale);

@@ -16,7 +16,6 @@ WE DO NOT OWN THESE GAMES. YOU MUST GET PERMISSION FROM THE JAMMERS TO SHOW THEI
 The whole thing is Windows only. Sorry.
 
 
-
 This whole launcher is a direct descendent of the Dream Boxxx launcher I wrote years ago. Info about that here: https://arcadecommons.org/games/dreamboxxx/
 That's why tons of stuff in this project is called "dreamlauncher"
 
@@ -40,6 +39,9 @@ I also included an installer for [Notepad++](https://notepad-plus-plus.org/). Yo
 The arduino code for the teensy in the console lives in hardware_jam_2026_console
 
 # Games
+
+You can dowload the game here: https://drive.google.com/drive/folders/17QjgE6TvSLN3gDL9qbS-F5jI72jF1srO
+(you will need permission to access that folder)
 
 The games should live in data/games/
 

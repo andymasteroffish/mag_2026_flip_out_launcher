@@ -50,7 +50,7 @@ class ofApp : public ofBaseApp{
 
 		TopText topText;
 
-		ofImage logo;
+		ofImage logo, logo2;
 		ofTrueTypeFont bottomInfoFont;
 
 		Background background;
@@ -71,7 +71,8 @@ class ofApp : public ofBaseApp{
 		float iconXSpacing;
 		float iconSpacingCurve;
 
-		ofVec2f logoPos;
+		ofVec2f logoPos, logoPos2;
+		float logoScale, logoScale2;
 		ofVec2f bottomTextPos;
 
 		bool canSelectGame;

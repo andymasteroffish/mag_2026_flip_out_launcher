@@ -304,15 +304,7 @@ void ofApp::draw(){
 	ofPopMatrix();
 	
 
-	//game info
-	float selectionAnimPrc = selectionAnimationTimer / selectionAnimationTime;
-	selectionAnimPrc = MIN(selectionAnimPrc, 1);
-	//draw the info for this game, crossfading when the seleciton changes
-	info[curSelection].draw(255 * selectionAnimPrc, gameTitleColHex, gameInfoColHex, outlineColHex);
 	
-	if (selectionAnimPrc < 1.0) {
-		info[oldSelection].draw(255 * (1.0 - selectionAnimPrc), gameTitleColHex, gameInfoColHex, outlineColHex);
-	}
 
 
 	//top text
@@ -322,6 +314,16 @@ void ofApp::draw(){
 	//icons
 	for (int i = 0; i < icons.size(); i++) {
 		icons[i].draw(outlineColHex);
+	}
+
+	//game info
+	float selectionAnimPrc = selectionAnimationTimer / selectionAnimationTime;
+	selectionAnimPrc = MIN(selectionAnimPrc, 1);
+	//draw the info for this game, crossfading when the seleciton changes
+	info[curSelection].draw(255 * selectionAnimPrc, gameTitleColHex, gameInfoColHex, outlineColHex);
+
+	if (selectionAnimPrc < 1.0) {
+		info[oldSelection].draw(255 * (1.0 - selectionAnimPrc), gameTitleColHex, gameInfoColHex, outlineColHex);
 	}
 
 	//bottom stuff
@@ -450,7 +452,7 @@ void ofApp::keyPressed(int key) {
 	bool confirm_pressed = false;
 	for (int i = 0; i < confirm_keys.size(); i++)	if (key == confirm_keys[i]) confirm_pressed = true;
 
-	//all player buttons act as selecitons
+	//all player buttons act as selections
 	if(confirm_pressed & canSelectGame){
 		if (info[curSelection].is_general_info == false) {
 			cout << "launch " << info[curSelection].titleText << endl;

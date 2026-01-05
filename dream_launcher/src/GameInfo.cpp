@@ -77,7 +77,7 @@ void GameInfo::draw(float alpha, int titleColHex, int textColHex, int outlineCol
 		float infoY = byY + byLineHeight + ofGetHeight() * textInfoYSpacingPrc;
 		infoFont->draw(infoText, textX, infoY, textW);
 	}
-	//the special generla info page is just text
+	//the special general info page is just text
 	else {
 
 		//image only

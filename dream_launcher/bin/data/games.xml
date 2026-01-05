@@ -5,8 +5,8 @@
 		<INFO>It's a game jam.</INFO>
 		<EXE_PATH></EXE_PATH>
 		<IS_WEB>FALSE</IS_WEB>
-		<ICON>logo.png</ICON>
-		<SCREENSHOT>LeverUpCover.jpg</SCREENSHOT>
+		<ICON>FlipOutIcon.png</ICON>
+		<SCREENSHOT>FlipOutCoverNonPixel.png</SCREENSHOT>
 	</GAME>
 	<GAME>
 		<TITLE>Five Lights at Debbies</TITLE>

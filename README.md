@@ -2,7 +2,7 @@
 
 Being developped in openFrameworks 0.9.8 using Visual Studio 2015
 
-jam info: https://itch.io/jam/flip-out
+jam info & games: https://itch.io/jam/flip-out
 
 Instructions for building the controller are on that jam page.
 Controller code: https://code.emma.coop/andy/hardware_jam_2026_arduino
@@ -13,16 +13,13 @@ Logo by Matt Lepage
 
 WE DO NOT OWN THESE GAMES. YOU MUST GET PERMISSION FROM THE JAMMERS TO SHOW THEIR WORK!
 
+You can use this repo as a refrence to make your own game launcher.
+
 The whole thing is Windows only. Sorry.
 
 
 This whole launcher is a direct descendent of the Dream Boxxx launcher I wrote years ago. Info about that here: https://arcadecommons.org/games/dreamboxxx/
 That's why tons of stuff in this project is called "dreamlauncher"
-
-Something about the auto hotkey
-Something about where to get the games
-
-
 
 
 
@@ -40,14 +37,11 @@ The arduino code for the teensy in the console lives in hardware_jam_2026_consol
 
 # Games
 
-You can dowload the game here: https://drive.google.com/drive/folders/17QjgE6TvSLN3gDL9qbS-F5jI72jF1srO
-(you will need permission to access that folder)
-
-The games should live in data/games/
+The games you want to launch should live in data/games/
 
 Drop the exe + any data it needs in there.
 
-You can also check out games_folder_example.jpg to see what it looked like for MAG.
+You can also check out games_folder_example.jpg to see what it looked like for MAG 25.
 
 Open each game once before you start the launcher. Otherwise windows security nonsense will pop up.
 

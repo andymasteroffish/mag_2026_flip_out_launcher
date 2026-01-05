@@ -33,8 +33,8 @@ ButtonInfo inputs[NUM_INPUTS];
 bool disable_keyboard_input;
 
 //timing out
-uint32_t last_input_time;
-uint32_t idle_time_for_reset_key = 10 * 60 * 1000;    //measured in millis
+unsigned long last_input_time;
+unsigned long idle_time_for_reset_key = 10L * 60L * 1000L;    //measured in millis
 //todo: might be nice to have a toggle switch to kill this
 
 void setup() {

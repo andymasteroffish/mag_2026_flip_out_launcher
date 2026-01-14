@@ -3,4 +3,4 @@ dream_launcher/bin/data/images
 dream_launcher/obj
 dream_launcher/.vs
 dream_launcher/*.db
-
+**/.DS_Store

@@ -8,12 +8,13 @@ Instructions for building the controller are on that jam page.
 Controller code: https://code.emma.coop/andy/hardware_jam_2026_arduino
 
 Launcher software by Andy Wallace
+additional code by josephalopod (josephalopod.itch.io)
 
 Logo by Matt Lepage
 
 WE DO NOT OWN THESE GAMES. YOU MUST GET PERMISSION FROM THE JAMMERS TO SHOW THEIR WORK!
 
-You can use this repo as a refrence to make your own game launcher.
+You can use this repo as a reference to make your own game launcher.
 
 The whole thing is Windows only. Sorry.
 

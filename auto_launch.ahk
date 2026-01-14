@@ -1,6 +1,7 @@
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; MULTI-CAB LAUNCHER
 ; by Andy Wallace
+; with additional code by josephalopod (josephalopod.itch.io)
 ; 
 ; When you run this, it will close EVERYTHING when you press K
 ; so save your work lol
@@ -36,7 +37,7 @@ Restart_Launcher()
 ;set the mouse to move every so often
 SetTimer, MoveMouse, 2000
 
-;k kills all games and returns focus to the launcer
+;k kills all games and returns focus to the launcher
 k::KilLAllGames()
 ; middle mouse click also restarts 
 MButton::KilLAllGames()
@@ -84,12 +85,23 @@ KillAllGames(){
 			WinGetClass, this_class, ahk_id %this_id%
 		WinGetTitle, this_title, ahk_id %this_id%
 		;MsgBox, %this_title%
-		If(This_class != "Shell_traywnd") && (This_class != "Button")  ; If class is not Shell_traywnd and not Button
+		If ((this_title != "dream_launcher_app") && (This_class != "Shell_traywnd") && (This_class != "Button"))  ; If class is not Shell_traywnd and not Button
 			WinClose, ahk_id %this_id% ;This is what it should be ;MsgBox, This ahk_id %this_id% ; Easier to test ;)
 	}
 	
-	Restart_Launcher()
+	;restart the launcher
+	If !ProcessExist("dream_launcher.exe")
+		Restart_Launcher()
+		Sleep 100
+		MoveMouse()
+	
+	;Return focus to launcher and run the focus function (triggered by 'R')
+	;This was more relevant when the launcher stayed open.
+	WinActivate, dream_launcher
+	;Sleep 20
+	;Send {R 1}
 }
+
 
 
 ;https://autohotkey.com/board/topic/98317-if-process-exist-command/
